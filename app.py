@@ -8,8 +8,9 @@ for i in list1:
     else:
         newList.append(i)
 print(newList)
+print("the sum of list : ",sum(newList))
 avaregeOflist=sum(newList)/len(newList)
-print(avaregeOflist)
+print("the avarege of list : ",avaregeOflist)
 print('the max value in list : ',max(newList),"\n",'the min value in list : ',min(newList))
 print("the index of max value : ",newList.index(max(newList)),"\n",
       "the indax of min value : ",newList.index(min(newList)))
