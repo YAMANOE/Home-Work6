@@ -55,41 +55,15 @@
 # pop
 # person.pop('job')
 # -------------------------------
-classRoom={
-    "yaman":{
-        'name':'yaman',
-         'city':'irbid',
-        'age':22,
-         'bhone number':123456
-        }  ,  
-    'kaled':{
-        'name':"kaled",
-        'city':"amman",
-        'age':33,
-        'phone number':56677
-    },
-    'mohammad':{,
-        'name':"mohmad",
-        'city':'hartha',
-        'age':33,
-        "phone number":56789,
-    },
-    'noor':{,
-        'name':"noor",
-        'city':'salt',
-        'age':38,
-        "phone number":567119,
-    },
-    "adnan":{,
-        'name':"adnan",
-        'city':'hartha',
-        'age':33,
-        "phone number":56789,
-    },
-}
-    
- 
-print(classRoom["yaman"])
+person={"name":'yaman',
+        "age":22,
+        "city":'irbid'}
+print(person)
+person['name']='salem'
+print(person)
+person['job']='data sencine'
+print(person)
+
 
 
 
